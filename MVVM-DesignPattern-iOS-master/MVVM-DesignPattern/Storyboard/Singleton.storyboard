@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Singleton View Controller-->
+        <scene sceneID="4Pb-uK-i7L">
+            <objects>
+                <viewController storyboardIdentifier="SingletonViewController" id="UT2-YD-Qh5" customClass="SingletonViewController" customModule="MVVM_DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7uG-Tq-5UO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EiZ-KH-gve">
+                                <rect key="frame" x="20" y="369" width="374" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="V49-tY-JJ7"/>
+                                    <constraint firstAttribute="height" constant="216" id="vHh-sm-k3N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="40"/>
+                                <color key="textColor" red="0.2858876823" green="0.33929198500000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngaaa.com-1431528" translatesAutoresizingMaskIntoConstraints="NO" id="jSi-Rf-sZo">
+                                <rect key="frame" x="20" y="12" width="374" height="399"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="b0S-97-eu6"/>
+                                    <constraint firstAttribute="height" constant="399" id="c5F-KV-U6k"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FSg-WE-AhT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EiZ-KH-gve" firstAttribute="centerX" secondItem="7uG-Tq-5UO" secondAttribute="centerX" id="9Qf-m3-fIA"/>
+                            <constraint firstItem="FSg-WE-AhT" firstAttribute="top" secondItem="jSi-Rf-sZo" secondAttribute="top" constant="32" id="BGj-pv-Kef"/>
+                            <constraint firstItem="EiZ-KH-gve" firstAttribute="top" secondItem="jSi-Rf-sZo" secondAttribute="bottom" constant="-42" id="UgH-Vz-p5G"/>
+                            <constraint firstItem="jSi-Rf-sZo" firstAttribute="centerX" secondItem="7uG-Tq-5UO" secondAttribute="centerX" id="whT-Vg-Rex"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="EiZ-KH-gve" id="8IZ-m3-Q78"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WM7-i0-TPr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10381" y="-5127"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pngaaa.com-1431528" width="1298" height="940"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

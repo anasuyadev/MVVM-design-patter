@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Protocol View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ProtocolViewController" id="Y6W-OH-hqX" customClass="ProtocolViewController" customModule="MVVM_DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="199C191A-265E-4F1A-AC76-4ABBD729CA1B_1_201_a" translatesAutoresizingMaskIntoConstraints="NO" id="Dp7-xi-kX5">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whats's your favourite band?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5r-2j-Whs">
+                                <rect key="frame" x="27.5" y="136" width="359" height="101.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="359" id="czc-lR-egL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="41"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m2F-91-QcL">
+                                <rect key="frame" x="48.5" y="303" width="317" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="317" id="tnn-R2-orP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4R-vL-f2h">
+                                <rect key="frame" x="173.5" y="378" width="67.5" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="amr-6M-ksY"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Go" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Charter-Roman" family="Charter" pointSize="35"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" systemColor="systemBrownColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="goButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="pXs-n0-GcJ"/>
+                                    <segue destination="l45-ZA-3HW" kind="show" id="rTd-Jx-TmF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="m2F-91-QcL" firstAttribute="top" secondItem="m5r-2j-Whs" secondAttribute="bottom" constant="65.5" id="0cq-Ra-6h9"/>
+                            <constraint firstItem="m5r-2j-Whs" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="KIR-vH-Woz"/>
+                            <constraint firstItem="n4R-vL-f2h" firstAttribute="top" secondItem="m2F-91-QcL" secondAttribute="bottom" constant="41" id="bR2-mM-bdW"/>
+                            <constraint firstItem="m5r-2j-Whs" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="92" id="ez5-2t-thw"/>
+                            <constraint firstItem="m2F-91-QcL" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="st5-T0-sxK"/>
+                            <constraint firstItem="n4R-vL-f2h" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="uoE-8L-dqU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="protocolField" destination="m2F-91-QcL" id="PSN-R7-BFP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="49.553571428571423"/>
+        </scene>
+        <!--Protocol Display View Controller-->
+        <scene sceneID="1cD-Yj-nQf">
+            <objects>
+                <viewController storyboardIdentifier="ProtocolDisplayViewController" id="l45-ZA-3HW" customClass="ProtocolDisplayViewController" customModule="MVVM_DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nvu-3J-ARZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5EB460FF-3970-4231-9556-FA3168C537BC_1_201_a" translatesAutoresizingMaskIntoConstraints="NO" id="xGd-ih-T5D">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Beatles  is your favourite band!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XpI-zk-fs7">
+                                <rect key="frame" x="31" y="10" width="352" height="85.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="352" id="Q8Q-Mt-X9Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NdR-J0-qXA"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xGd-ih-T5D" firstAttribute="top" secondItem="nvu-3J-ARZ" secondAttribute="top" id="6On-ln-WDL"/>
+                            <constraint firstItem="XpI-zk-fs7" firstAttribute="top" secondItem="NdR-J0-qXA" secondAttribute="top" constant="10" id="6ay-Xx-iox"/>
+                            <constraint firstAttribute="bottom" secondItem="xGd-ih-T5D" secondAttribute="bottom" id="Ftb-U9-YYz"/>
+                            <constraint firstAttribute="trailing" secondItem="xGd-ih-T5D" secondAttribute="trailing" id="R8Q-yF-96r"/>
+                            <constraint firstItem="xGd-ih-T5D" firstAttribute="leading" secondItem="nvu-3J-ARZ" secondAttribute="leading" id="gnI-0R-Qt2"/>
+                            <constraint firstItem="XpI-zk-fs7" firstAttribute="centerX" secondItem="nvu-3J-ARZ" secondAttribute="centerX" id="v1D-0a-BbG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5A2-nD-DYz"/>
+                    <connections>
+                        <outlet property="protocolLabel" destination="XpI-zk-fs7" id="GVL-8z-jTY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qfW-S0-5dA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="747.82608695652175" y="49.553571428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="199C191A-265E-4F1A-AC76-4ABBD729CA1B_1_201_a" width="443" height="607"/>
+        <image name="5EB460FF-3970-4231-9556-FA3168C537BC_1_201_a" width="435" height="800"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

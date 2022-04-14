@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BB8DB9B2-57D7-43D3-859E-8332920D1B2F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E54D2ADF-80CE-4166-99FC-10E0692D20C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SingletonViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E54D2ADF-80CE-4166-99FC-10E0692D20C1 - 69fab9ef9856ec44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.SecondViewController.slideVC.getter : Swift.Optional&lt;MVVM_DesignPattern.ViewController&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E54D2ADF-80CE-4166-99FC-10E0692D20C1 - d27470704fa34c50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.SecondViewController.slideVC.setter : Swift.Optional&lt;MVVM_DesignPattern.ViewController&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "E54D2ADF-80CE-4166-99FC-10E0692D20C1 - 9b73dc6a68f902e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.SecondViewController.slideVC.modify : Swift.Optional&lt;MVVM_DesignPattern.ViewController&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "E54D2ADF-80CE-4166-99FC-10E0692D20C1 - d7f5ec1dc53cd49c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.SecondViewController.slideVC.modify : Swift.Optional&lt;MVVM_DesignPattern.ViewController&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "E54D2ADF-80CE-4166-99FC-10E0692D20C1 - 495f93f2bf5a3f65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.SecondViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MVVM_DesignPattern.SecondViewController&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6C49C4C-E492-4D57-9B04-16E72F259C1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "shareName(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAC3EDD1-FECA-4BC8-B075-DF6EF295AA9E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "shareName(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AAF2E51-93FA-4615-BB30-F8E140DAC76B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8AAF2E51-93FA-4615-BB30-F8E140DAC76B - e0e2f5558911d003"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ViewController.delegate.getter : Swift.Optional&lt;MVVM_DesignPattern.ShareDelegate&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "8AAF2E51-93FA-4615-BB30-F8E140DAC76B - 62d29237ad90d8d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ViewController.delegate.setter : Swift.Optional&lt;MVVM_DesignPattern.ShareDelegate&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "8AAF2E51-93FA-4615-BB30-F8E140DAC76B - dd4af8a671da1a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ViewController.delegate.modify : Swift.Optional&lt;MVVM_DesignPattern.ShareDelegate&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "8AAF2E51-93FA-4615-BB30-F8E140DAC76B - b26ce4f17a0ffa88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ViewController.delegate.modify : Swift.Optional&lt;MVVM_DesignPattern.ShareDelegate&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "8AAF2E51-93FA-4615-BB30-F8E140DAC76B - a35030d95cd0bfc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MVVM_DesignPattern.ViewController"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "8AAF2E51-93FA-4615-BB30-F8E140DAC76B - 4a93bb96401acd94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MVVM_DesignPattern.ViewController&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B406B98-65E3-441F-B563-5B1D96202762"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "loginUser(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B391EED-0B1E-44E8-9EA1-C5BF0A112C6B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "loginUser(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD9270CB-B5B5-462C-8897-B8F1518EA43B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "shareName(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "622C997C-EC0B-4885-AF2D-78E25EE1D404"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D939E84-1316-4131-8884-AB3D02519B5E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/ViewController/Protocol/ProtocolViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ProtocolViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6D939E84-1316-4131-8884-AB3D02519B5E - d97c50bb80852b97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ProtocolViewController.delegate.getter : Swift.Optional&lt;MVVM_DesignPattern.ShareDelegate&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController/Protocol/ProtocolViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "6D939E84-1316-4131-8884-AB3D02519B5E - 842736a46794d383"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ProtocolViewController.delegate.setter : Swift.Optional&lt;MVVM_DesignPattern.ShareDelegate&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController/Protocol/ProtocolViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "6D939E84-1316-4131-8884-AB3D02519B5E - 8b16a3941614e387"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ProtocolViewController.delegate.modify : Swift.Optional&lt;MVVM_DesignPattern.ShareDelegate&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController/Protocol/ProtocolViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "6D939E84-1316-4131-8884-AB3D02519B5E - 31cef72bd0c3aa74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ProtocolViewController.delegate.modify : Swift.Optional&lt;MVVM_DesignPattern.ShareDelegate&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController/Protocol/ProtocolViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "6D939E84-1316-4131-8884-AB3D02519B5E - 7bda1d06e7f1b5d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ProtocolViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MVVM_DesignPattern.ProtocolViewController"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController/Protocol/ProtocolViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "6D939E84-1316-4131-8884-AB3D02519B5E - 5b491bf20b72f019"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ProtocolViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MVVM_DesignPattern.ProtocolViewController&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController/Protocol/ProtocolViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C75AF6B7-8A56-44DC-85BF-17A902737D62"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/ViewController/Protocol/ProtocolViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "goButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF9711A3-BBD2-4B5F-88B6-2D8BAC35E676"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/ViewController/Protocol/ProtocolViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "shareName(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "567B5CD0-B28A-426C-AF11-184176E98379"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/ViewController/ProtocolDisplayViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ProtocolDisplayViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "567B5CD0-B28A-426C-AF11-184176E98379 - ffb87af7cbbc7a8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ProtocolDisplayViewController.slideVC.getter : MVVM_DesignPattern.ProtocolViewController"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController/ProtocolDisplayViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "567B5CD0-B28A-426C-AF11-184176E98379 - afa6cc823be2eb86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ProtocolDisplayViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MVVM_DesignPattern.ProtocolDisplayViewController"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController/ProtocolDisplayViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "567B5CD0-B28A-426C-AF11-184176E98379 - 251d70b32bfe81d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVM_DesignPattern.ProtocolDisplayViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MVVM_DesignPattern.ProtocolDisplayViewController&gt;"
+                  moduleName = "MVVM-DesignPattern"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/an40084506/Downloads/MVVM-DesignPattern-iOS-master/MVVM-DesignPattern/ViewController/ProtocolDisplayViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A958CFE-E209-4DAB-A9B5-39947A5B4967"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/ViewController/ProtocolDisplayViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94887E5C-ECD2-43D8-AF3F-DD7B9C32901E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-DesignPattern/ViewController/ProtocolDisplayViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "shareName(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
